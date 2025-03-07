@@ -278,7 +278,7 @@ export function AddTransactionForm({
         />
       </div>
 
-      {/* Recurring Interval */}
+      {/* Recurring Interval Expense*/}
       {isRecurring && (
         <div className="space-y-2">
           <label className="text-sm font-medium">Recurring Interval</label>
@@ -330,3 +330,5 @@ export function AddTransactionForm({
     </form>
   );
 }
+
+
