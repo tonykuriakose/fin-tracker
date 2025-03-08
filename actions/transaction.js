@@ -14,7 +14,7 @@ const serializeAmount = (obj) => ({
   amount: obj.amount.toNumber(),
 });
 
-// Create Transaction
+// Create a Transaction
 export async function createTransaction(data) {
   try {
     const { userId } = await auth();
